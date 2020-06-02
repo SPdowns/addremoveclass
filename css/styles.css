@@ -40,3 +40,18 @@
 img {
   width: 300px;
 }
+
+body {
+  background-color: rgb(85, 72, 72);
+  color: rgb(255, 179, 179);
+}
+
+p {
+  border: black;
+  border-style: double;
+  padding: 10px;
+}
+
+.jumbotron {
+  background-color: aqua;
+}
