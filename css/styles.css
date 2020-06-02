@@ -41,9 +41,14 @@ img {
   width: 300px;
 }
 
-body {
+.dark-background {
   background-color: rgb(85, 72, 72);
   color: rgb(255, 179, 179);
+}
+
+.light-background {
+  background-color: rgb(255, 179, 179);
+  color: rgb(85, 72, 72);
 }
 
 p {
@@ -54,4 +59,10 @@ p {
 
 .jumbotron {
   background-color: aqua;
+}
+
+.button-style {
+  background-color: green;
+  color: antiquewhite;
+  padding: 5px;
 }

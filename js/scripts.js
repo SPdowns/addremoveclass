@@ -3,12 +3,19 @@ $(document).ready(function() {
     $("#walrus-showing").toggle();
     $("#walrus-hidden").toggle();
   });
+
   $(".clickable2").click(function() {
     $("#animal-showing").fadeToggle();
     $("#animal-hidden").fadeToggle();
   });
+  
   $(".clickable3").click(function() {
     $("#lobster-showing").fadeToggle();
     $("#lobster-hidden").fadeToggle();
+  });
+  
+  $("#background-button").click(function() {
+    $("body").toggleClass("dark-background");
+    $("body").toggleClass("light-background")
   });
 });
